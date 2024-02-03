@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Freelancer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <style>
+    /* Your custom CSS styles */
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-gray-800 p-4 text-white">
+  <div class="container mx-auto">
+    <div class="flex items-center justify-between">
+      <a href="#" class="text-2xl font-semibold">Your Name</a>
+      <div class="flex space-x-4">
+        <a href="#about" class="hover:text-gray-400">About</a>
+        <a href="#portfolio" class="hover:text-gray-400">Portfolio</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="about" class="py-8">
+  <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row">
+      <div class="md:w-1/2 animate__animated animate__fadeInLeft" data-aos="fade-right">
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+        <p>Your introduction and description go here.</p>
+      </div>
+      <div class="md:w-1/2 animate__animated animate__fadeInRight" data-aos="fade-left">
+        <img src="path-to-your-image.jpg" alt="Your Name" class="rounded-full w-64 h-64 mx-auto md:mx-0">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="bg-white py-8">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-semibold text-center mb-6 animate__animated animate__fadeIn" data-aos="fade-up">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 border rounded-md hover:shadow-md animate__animated animate__fadeIn" data-aos="zoom-in">
+        <!-- Portfolio item 1 -->
+      </div>
+      <div class="p-4 border rounded-md hover:shadow-md animate__animated animate__fadeIn" data-aos="zoom-in">
+        <!-- Portfolio item 2 -->
+      </div>
+      <div class="p-4 border rounded-md hover:shadow-md animate__animated animate__fadeIn" data-aos="zoom-in">
+        <!-- Portfolio item 3 -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-8">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-semibold text-center animate__animated animate__fadeIn" data-aos="fade-up">Contact Me</h2>
+    <p class="text-center animate__animated animate__fadeIn" data-aos="fade-up">Contact form or details go here.</p>
+  </div>
+</section>
+
+<footer class="bg-gray-800 text-white py-6">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+    <div class="mt-4">
+      <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
